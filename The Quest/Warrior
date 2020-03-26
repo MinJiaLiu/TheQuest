@@ -1,0 +1,8 @@
+pubic class Warrior extends Character{
+        public Warrior (String n, int l, int ma, int str, int agi, int dex, int sm, int sexp){
+        super(n,l,ma,str,agi,dex,sm,sexp);
+        str_ratio= 0.1;
+        dex_ratio=0.3;
+        agi_ratio=0.3;
+    }
+}
